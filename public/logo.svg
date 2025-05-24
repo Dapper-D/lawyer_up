@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#gradient)" />
+  
+  <!-- Neural Network Nodes -->
+  <circle cx="256" cy="256" r="40" fill="#90CAF9" />
+  <circle cx="156" cy="156" r="30" fill="#F48FB1" />
+  <circle cx="356" cy="156" r="30" fill="#F48FB1" />
+  <circle cx="156" cy="356" r="30" fill="#F48FB1" />
+  <circle cx="356" cy="356" r="30" fill="#F48FB1" />
+  
+  <!-- Neural Network Connections -->
+  <path d="M256 256 L156 156" stroke="#90CAF9" stroke-width="4" />
+  <path d="M256 256 L356 156" stroke="#90CAF9" stroke-width="4" />
+  <path d="M256 256 L156 356" stroke="#90CAF9" stroke-width="4" />
+  <path d="M256 256 L356 356" stroke="#90CAF9" stroke-width="4" />
+  
+  <!-- Animated Pulse Effect -->
+  <circle cx="256" cy="256" r="240" stroke="#90CAF9" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="240;260;240" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <radialGradient id="gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#1E1E1E" />
+      <stop offset="100%" stop-color="#121212" />
+    </radialGradient>
+  </defs>
+</svg> 
