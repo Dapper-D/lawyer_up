@@ -1,0 +1,26 @@
+# Environment Variables Requirements for Lawyer Up
+
+## Required Environment Variables
+
+1. REACT_APP_GEMINI_API_KEY
+   - Purpose: Authentication for Google's Gemini AI API
+   - Required: Yes
+   - Format: String
+   - How to obtain: 
+     1. Go to https://makersuite.google.com/app/apikey
+     2. Create or sign in with your Google account
+     3. Create a new API key
+   - Example: REACT_APP_GEMINI_API_KEY=AIza...
+
+## Important Notes
+
+- All environment variables must be prefixed with REACT_APP_ to be accessible in the React application
+- Never commit actual API keys to the repository
+- When deploying to Vercel, add these environment variables in the Vercel project settings
+- For local development, create a .env file with these variables
+
+## Security Considerations
+
+- Keep your API keys secure and never share them
+- Rotate keys periodically for better security
+- Use different API keys for development and production environments 
