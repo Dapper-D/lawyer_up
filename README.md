@@ -1,3 +1,4 @@
+live link https://lawyer-up-xi.vercel.app/
 # AI Assistant Application
 
 A sophisticated AI-powered application with multiple functionalities including chat, code analysis, image generation, and text analysis.
